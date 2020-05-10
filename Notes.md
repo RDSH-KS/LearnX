@@ -17,7 +17,7 @@
 
 例如，从清华源镜像安装pyspider库
 
-```
+``` javascript
 pip install pyspider -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
@@ -25,7 +25,7 @@ pip install pyspider -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 - Linux 修改 ~/.pip/pip.conf(没有此文件夹及文件，创建)，内容如下：
 
-```
+``` javascript
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 [install]
@@ -33,4 +33,3 @@ trusted-host = mirrors.aliyun.com
 ```
 
 - Windows 在user目录中创建pip目录，再新建pip.ini文件。如：```C:\User\ZhangSan\pip\pip.ini``` 内容同上。
-
